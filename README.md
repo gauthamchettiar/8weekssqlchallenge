@@ -1,4 +1,9 @@
-# [https://8weeksqlchallenge.com/](https://8weeksqlchallenge.com/) Solutions
+# What's This?
+This repository contains Solutions to SQL Problems From [https://8weeksqlchallenge.com/](https://8weeksqlchallenge.com/).
+
+Currently has solutions to:
+1. [Dannys Dinner](https://8weeksqlchallenge.com/case-study-1/) - [Solutions](01_dannys_dinner/)
+2. [Pizza Runner](https://8weeksqlchallenge.com/case-study-2/) - [Solutions](02_pizza_runner/)
 
 ## Preparing Datasets
 1. Login to Default Database
@@ -16,6 +21,7 @@
     psql eightweekschallenge -f 02_pizza_runner/00-create_table.sql
     psql eightweekschallenge -f 02_pizza_runner/00-cleaned_views.sql
     ```
+
 ## Logging into database and select a schema -
 1. Login to Database
     ```bash
