@@ -12,20 +12,20 @@ Currently has solutions to:
     ```
 2. Create Database
     ```sql
-    CREATE DATABASE eightweekschallenge;
+    CREATE DATABASE eightweekssqlchallenge;
     ```
 3. Create Required Tables
     ```
-    psql eightweekschallenge -f 01_dannys_dinner/00-create_table.sql
+    psql eightweekssqlchallenge -f 01_dannys_dinner/00-create_table.sql
 
-    psql eightweekschallenge -f 02_pizza_runner/00-create_table.sql
-    psql eightweekschallenge -f 02_pizza_runner/00-cleaned_views.sql
+    psql eightweekssqlchallenge -f 02_pizza_runner/00-create_table.sql
+    psql eightweekssqlchallenge -f 02_pizza_runner/00-cleaned_views.sql
     ```
 
-## Logging into database and select a schema -
+## Logging into Database and Selecting a Schema
 1. Login to Database
     ```bash
-    psql eightweekschallenge
+    psql eightweekssqlchallenge
     ```
 2. Select Schema As Per challenge
     ```sql
